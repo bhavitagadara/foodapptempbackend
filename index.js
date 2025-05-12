@@ -19,7 +19,7 @@ connectToMongoDB("mongodb://127.0.0.1:27017/foodapptemp",{
   
 
   const corsOptions = {
-    origin: 'http://localhost:4200', // Allow requests from this origin
+    origin: 'https://incredible-mooncake-24e438.netlify.app/', // Allow requests from this origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allow these headers 
     credentials: true 
