@@ -12,7 +12,7 @@ const loginUser = require("./routes/login.route");
 const orderRoutes = require("./routes/order.route");
 const stripeRoute = require("./routes/stryp.route");
 
-connectToMongoDB("mongodb://127.0.0.1:27017/foodapptemp",{
+connectToMongoDB("mongodb+srv://bhavitagadara03:VeegI8x3bTuigzpu@foodapptemp.z2ced5t.mongodb.net/?retryWrites=true&w=majority&appName=foodapptemp",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }).then(() => console.log('mongodb connected'));
