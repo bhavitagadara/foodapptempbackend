@@ -15,6 +15,7 @@ const stripeRoute = require("./routes/stryp.route");
 connectToMongoDB(process.env.MONGO_URI,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    tls: true,
   }).then(() => console.log('mongodb connected'));
   
 
