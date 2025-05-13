@@ -1,0 +1,4 @@
+[build]
+    command = "ng build && ng run foodapptemp:server"  # Ensure this matches the build script you're using
+    publish = "dist/foodapptemp/browser"
+    functions = "netlify/functions"
