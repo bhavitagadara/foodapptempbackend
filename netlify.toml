@@ -1,4 +1,0 @@
-[build]
-    command = "npm build"  # Ensure this matches the build script you're using
-    publish = "dist/foodapptempbackend/browser"
-    functions = "netlify/functions"
